@@ -1,0 +1,30 @@
+body{ color: #333}
+
+a{ color: #333;}
+a:hover{ color: #666;}
+
+h1{ font-size: 1.5em}
+h2{ font-size: 1.3em}
+h3{ font-size: 1.1em}
+h4{ font-size: .8em}
+
+.subtitle,
+.highlight-title{ text-transform: uppercase;}
+
+.subtitle{
+    color: #666;
+    font-size: 1.3em;
+    text-align: center;
+    border-top: .1em solid #ccc;
+}
+    .subtitle span{
+        top: -.7em;
+        padding: 0 .5em;
+        position: relative;
+        background: #fff;
+    }
+
+.highlight-title{
+    color: #A9A9A9;
+    font-size: .8em;
+}
